@@ -1,0 +1,6 @@
+youtube_dl==2021.12.17
+ipywidgets==8.0.3
+pedalboard==0.6.7
+IPython==8.7.0
+ipyfilechooser==0.6.0
+moviepy==1.0.3
