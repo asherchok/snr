@@ -4,9 +4,11 @@
 
 Creates a .mp4 music video in the style of slowed and reverb from given URL of any music on YouTube Music and any choice of GIF with a Jupyter notebook.
 
-Original music (left) and modified music (right):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PIszx-GuPmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O1xS9EFrhzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Original music: 
+[<img src="https://github.com/asherchok/snr/blob/main/instructions/ori.PNG">](https://youtu.be/PIszx-GuPmE "Watch it now on YouTube")
+
+### Modified music from this work:
+[<img src="https://github.com/asherchok/snr/blob/main/instructions/edited.PNG">](https://youtu.be/O1xS9EFrhzA "Watch it now on YouTube")
 
 ## References to project:
 The following sources were used to achieve the goal of this project:
