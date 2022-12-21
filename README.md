@@ -26,21 +26,21 @@ To allow the text title to be added into the video, **ImageMagick** has to be in
 ## How to use
 Open the file `snr-generator.ipynb` on  [Jupyter notebook](https://jupyter.org/install). The script needs a designated directory to save the final output `.mp4` file. To do this, run the first code block as shown below and paste file directory in the box without \ at the end of the directory address. For example, `C:\Users\user\Downloads` instead of `C:\Users\user\Downloads\`.
 
-![alt text](https://github.com/asherchok/snr/tree/main/instructions/ins-1.png?raw=true)
+![alt text](https://github.com/asherchok/snr/blob/main/instructions/ins-1.png?raw=true)
 
 Run the second block. You will be asked to paste any YouTube music (or any YouTube video) URL link below. The script will first download a `.webm` extension of the designated URL link, then convert it to `.mp3`, and then deletes the `.webm` file in a newly created `\temp\` folder in the assigned directory.
 
-![alt text](https://github.com/asherchok/snr/tree/main/instructions/ins-2.png?raw=true)
+![alt text](https://github.com/asherchok/snr/blob/main/instructions/ins-2.png?raw=true)
 
 After the audio has been downloaded, the code block will modify the downloaded audio with `speed = 0.85` and `reverb_rate = 0.1`. Changing the values of these two variables will re-run the code block. Setting the variables `speed = 1.0` and `reverb_rate = 0` will show the original unmodified `.mp3` file. To slow down the audio, use the slider and reduce `speed` value less than `1.0`. To speed up the audio, use the slider and increase `speed` value more than `1.0`. If `reverb_rate` is set to 0, then the reverb effect is removed from the audio. Assigning a non-zero value to `reverb_rate` applies a roomsize effect on the audio.
 
 Like the speed and reverb settings for the audio? Proceed to the next code block below. You will be asked to select a GIF file that will be looped in the entire video. Note that the file chooser window will display the location where `snr-generator.ipynb` is saved at. The next block is entirely optional. Running it will simply show the GIF that you had selected on the previous block and skipping it does not affect the rest of the process.
 
-![alt text](https://github.com/asherchok/snr/tree/main/instructions/ins-3.png?raw=true)
+![alt text](https://github.com/asherchok/snr/blob/main/instructions/ins-3.png?raw=true)
 
 Run the next block after the `(Optional) ... ` code block to assign a font to the video. The default font in this notebook is set to `Brush-Script-MT-Italic` but can be changed to other fonts.
 
-![alt text](https://github.com/asherchok/snr/tree/main/instructions/ins-4.png?raw=true)
+![alt text](https://github.com/asherchok/snr/blob/main/instructions/ins-4.png?raw=true)
 
 By default, the text on the final `.mp4` file will show `{YouTube video title from URL}` + `(Slowed & Reverb)`. To manually add text into the video, modify the line
 ```
@@ -50,7 +50,7 @@ into something else. For example, a video with custom title would be `name_capti
 
 Finally, run this block and get the final output `.mp4` file. The output file will be saved at the assigned directory from the first code block and the `\temp\` folder will be deleted.
 
-![alt text](https://github.com/asherchok/snr/tree/main/instructions/ins-5.png?raw=true)
+![alt text](https://github.com/asherchok/snr/blob/main/instructions/ins-5.png?raw=true)
 
 ## License
 MIT
