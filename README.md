@@ -10,6 +10,8 @@ Creates a .mp4 music video in the style of slowed and reverb from given URL of a
 ### Modified music from this work:
 [<img src="https://github.com/asherchok/snr/blob/main/instructions/edited.PNG">](https://youtu.be/O1xS9EFrhzA "Watch it now on YouTube")
 
+### More samples can be found [here](https://www.youtube.com/channel/UCep3hGmnQ2Nxt5oGuBZ4BBw)
+
 ## References to project:
 The following sources were used to achieve the goal of this project:
 - [pedalboard python library by Spotify’s Audio Intelligence Lab](https://spotify.github.io/pedalboard/)
